@@ -9,9 +9,12 @@ You can get your API key by subscribing to the Free Mobile service and then goin
 
 - Git clone the repository
 - Install the required packages using `pip install -r requirements.txt`
-- Change the configuration in the `config.py` file
-- Run the script using `python3 pychecksms.py`
-- (Optional) Add the script to your crontab to run it at regular intervals
+- Import the module in your script using `import pycheckersms`
+- (Optional) You can setup a cron job to run the script at regular intervals
+
+## Example usage
+Check the `example.py` file for an example usage of the module.
+
 
 ## License
 
